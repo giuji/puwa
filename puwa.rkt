@@ -1,10 +1,5 @@
 #!/usr/bin/racket
 #lang racket
-;;; puwa.rkt
-;; Renders the contents of ./dots into the home directory, everything between
-;; {{{...}}} is considered a token. Values for tokens are defined in
-;; ./host-config/<current_hostname>.rkt using racket `define` expressions. A different
-;; config file can be specified with `-c <hostname>`
 
 (require racket/os)
 
